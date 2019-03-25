@@ -1,5 +1,5 @@
 <?php 
-  include 'crudVenda.php';
+  include '../model/crudVenda.php';
 
   $opcao=$_GET['opcao'];
 

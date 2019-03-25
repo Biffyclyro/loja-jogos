@@ -1,5 +1,5 @@
 <?php 
-	include 'crudUsuario.php';
+	include '../model/crudUsuario.php';
 
 	if(isset($_POST["opcao"])){
 		$opcao = $_POST["opcao"];

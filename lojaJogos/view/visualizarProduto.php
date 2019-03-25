@@ -22,7 +22,7 @@
     
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="paginaInicial.php"><img src="../img/iconeBranco.png" width="30" height="30" alt="">Saldão de Jogos</a>
+      <a class="navbar-brand" href="../index.php"><img src="../img/iconeBranco.png" width="30" height="30" alt="">Saldão de Jogos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,7 +30,7 @@
         <ul class="navbar-nav">
 
           <li class="nav-item active ">
-            <a class="nav-link" href="paginaInicial.php">Página Inicial</a>
+            <a class="nav-link" href="../index.php">Página Inicial</a>
           </li>
 
           <li class="nav-item active btn-info">

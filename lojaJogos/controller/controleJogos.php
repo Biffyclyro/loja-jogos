@@ -1,5 +1,5 @@
 <?php 
-	include 'crudJogos.php';
+	include '../model/crudJogos.php';
 	
 	include 'modal.php';
 

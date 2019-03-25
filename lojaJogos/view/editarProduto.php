@@ -18,12 +18,14 @@
         if (isset($_SESSION['nome'])){
           $nome = $_SESSION['nome'];
           
-        }
+        }else{
+					header("Location: login.php");
+				}
     ?>
     
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="paginaInicial.php"><img src="../img/iconeBranco.png" width="30" height="30" alt="">Saldão de Jogos</a>
+      <a class="navbar-brand" href="../index.php"><img src="../img/iconeBranco.png" width="30" height="30" alt="">Saldão de Jogos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
